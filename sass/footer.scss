@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+  align-content: space-between;
+  padding-top: 2.5%;
+  padding-bottom: 2.15%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.ref {
+  font-size: 14px;
+  font-weight: "IBM Plex Mono";
+  text-align: center;
+}
+.fab {
+  width: 16px;
+  height: 28px;
+}
+.icons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 8%;
+  justify-content: space-around;
+  width: 232px;
+}
+.icons a {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 450px) {
+  footer {
+    flex-direction: column;
+    padding-top: 7.5%;
+  }
+  .fab {
+    width: 18px;
+    height: 28px;
+  }
+  .icons {
+    padding-top: 16px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 227px;
+    align-self: center;
+    padding-left: 17%;
+  }
+}

@@ -26,9 +26,9 @@ A continuación podrá encontrar lo elementos que componen el proyecto de podcas
 
 ## Project view - Desktop version / Vista del proyecto - Version Desktop
 
-![Podcast Desktop Version](https://www.google.com)
+![Podcast Desktop Version](https://github.com/davidcastellanos/davidcastellanos.github.io/blob/master/readme_files/podcast_webView.png)
 
 
 ## Project view - Responsive version / Vista del proyecto - Version Responsiva
 
-![Podcast Responsive Version](https://www.google.com)
+![Podcast Responsive Version](https://github.com/davidcastellanos/davidcastellanos.github.io/blob/master/readme_files/podcast_responsiveView.png)

@@ -1,3 +1,4 @@
+/*Títulos*/
 .title {
   position: relative;
   width: 100%;
@@ -5,6 +6,7 @@
   padding: 0;
   color: #060a24;
 }
+
 .title h1 {
   position: relative;
   margin: 0;
@@ -15,9 +17,11 @@
   font-size: 64px;
   word-wrap: break-word;
 }
+
 .title span {
   color: #0000ec;
 }
+
 .title h6 {
   position: relative;
   max-width: 628px;
@@ -28,12 +32,17 @@
   font-size: 16px;
   word-wrap: break-word;
 }
+
 .title h5 {
   display: none;
 }
+
+/*Boton Inicial del sitio*/
 #more {
+  box-sizing: border-box;
   display: block;
   padding: 0;
+  padding-top: 15.6px;
   position: relative;
   margin: 0;
   top: 12.59%;
@@ -46,7 +55,10 @@
   border: 0px;
   font-size: 18px;
   color: #060a24;
+  text-decoration: none;
 }
+
+/*media query sitio responsive*/
 @media (max-width: 750px) {
   .title {
     height: 303px;

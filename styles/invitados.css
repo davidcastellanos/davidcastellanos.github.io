@@ -1,10 +1,12 @@
+/*Seccion invitadas estelares*/
 .invitados {
   width: 100%;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   max-height: 826px;
 }
 
+/*título*/
 .invitados h3 {
   width: 86%;
   height: 84px;
@@ -23,23 +25,25 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
   min-height: 728px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
+/*imágenes tamaños*/
 .invitados img {
   width: 33.333%;
   max-height: 364px;
 }
 
+/*Transformación de elementos a responsivo*/
 @media (max-width: 1050px) {
   .invitados {
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     max-height: 998px;
   }
   .img-inv {
@@ -47,11 +51,11 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 14px;
   }
   .invitados img {
@@ -71,7 +75,7 @@
 @media (max-width: 700px) {
   .invitados {
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     max-height: 1603px;
   }
   .img-inv {
@@ -79,11 +83,11 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 14px;
   }
   .invitados img {

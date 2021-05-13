@@ -1,15 +1,17 @@
+/*Seccion footer*/
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: justify;
-      align-content: space-between;
+  align-content: space-between;
   padding-top: 2.5%;
   padding-bottom: 2.15%;
   padding-left: 7%;
   padding-right: 7%;
 }
 
+/*tamaño fuente copyright*/
 .ref {
   font-size: 14px;
   font-weight: "IBM Plex Mono";
@@ -21,6 +23,7 @@ footer {
   height: 28px;
 }
 
+/*disposición de los íconos*/
 .icons {
   position: absolute;
   display: -webkit-box;
@@ -28,25 +31,27 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   right: 8%;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 232px;
 }
 
+/*Color de los íconos*/
 .icons a {
   color: black;
   text-decoration: none;
 }
 
+/*Transformación a responsivo de elementos usando media query*/
 @media (max-width: 450px) {
   footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-top: 7.5%;
   }
   .fab {
@@ -60,10 +65,10 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     max-width: 227px;
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     padding-left: 17%;
   }
 }

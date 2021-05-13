@@ -1,3 +1,4 @@
+/*Títulos*/
 .title {
   position: relative;
   width: 100%;
@@ -36,9 +37,12 @@
   display: none;
 }
 
+/*Boton Inicial del sitio*/
 #more {
+  box-sizing: border-box;
   display: block;
   padding: 0;
+  padding-top: 15.6px;
   position: relative;
   margin: 0;
   top: 12.59%;
@@ -51,8 +55,10 @@
   border: 0px;
   font-size: 18px;
   color: #060a24;
+  text-decoration: none;
 }
 
+/*media query sitio responsive*/
 @media (max-width: 750px) {
   .title {
     height: 303px;

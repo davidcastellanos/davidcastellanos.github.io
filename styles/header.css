@@ -1,3 +1,6 @@
+/*Seccion de header - menú*/
+
+/*valores iniciales del body*/
 body {
   padding: 0%;
   margin: 0%;
@@ -6,20 +9,23 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
+/*Cambio de Color cuando hay hover en botón principal*/
 #more:hover {
   background-image: linear-gradient(225deg, #0000fe, #00f0b8);
   color: white;
 }
 
+/*Cambio de Color cuando hay hover en botón secundario*/
 #more2:hover {
   background-image: linear-gradient(225deg, #0000fe, #00f0b8);
   color: white;
 }
 
+/*header relative para manipular elementos hijo*/
 header {
   position: relative;
   width: 100%;
@@ -48,6 +54,7 @@ header label {
   top: 16px;
 }
 
+/*menú responsive no visible*/
 #check-menu {
   display: none;
 }
@@ -59,6 +66,7 @@ header label img {
   height: 100%;
 }
 
+/*click abrir menú responsive invisible*/
 .show {
   position: absolute;
   visibility: hidden;
@@ -68,12 +76,14 @@ header label img {
   top: 16px;
 }
 
+/*tamaño imagen menu responsive*/
 .show img {
   position: absolute;
   width: 18px;
   height: 12px;
 }
 
+/*click cerrar menú responsive invisible*/
 .showx {
   visibility: hidden;
   position: absolute;
@@ -83,12 +93,14 @@ header label img {
   width: 14px;
 }
 
+/*tamaño imagen cierre menu responsive*/
 .showx img {
   position: absolute;
   height: 14px;
   width: 14px;
 }
 
+/*tamaño menu*/
 .menu {
   position: absolute;
   top: 0;
@@ -98,6 +110,7 @@ header label img {
   right: 7%;
 }
 
+/*tamaño lista menu*/
 .menu ul {
   width: 100%;
   height: 100%;
@@ -109,10 +122,11 @@ header label img {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
+/*tamaño y distribución de items*/
 .menu li a {
   height: 80px;
   padding-top: 26px;
@@ -124,6 +138,7 @@ header label img {
   text-decoration: none;
 }
 
+/*animación hover en items del menu*/
 .menu li a:hover {
   color: #00f3bb;
   text-decoration: line-through;
@@ -134,6 +149,7 @@ header label img {
   text-decoration: line-through;
 }
 
+/*transformación de elementos a vista responsiva con media query*/
 @media (max-width: 700px) {
   header label {
     display: block;
@@ -162,17 +178,17 @@ header label img {
   }
   .menu ul {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding-top: 16px;
     padding-left: 16px;
     padding-bottom: 24px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     color: white;
   }
   .menu li a {
@@ -181,6 +197,7 @@ header label img {
     padding-left: 0px;
     font-size: 16px;
   }
+  /*imagenes y animación menu responsivo por click*/
   .show {
     visibility: visible;
   }

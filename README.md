@@ -21,3 +21,14 @@ A continuación podrá encontrar lo elementos que componen el proyecto de podcas
 |[HTML FILE](https://bit.ly/3hliVER)             |Archivo: Index HTML             |
 |[CSS FILES](https://bit.ly/3ocwOGS)             |Archivos CSS en el directorio de estilo que contiene las versiones finales de estilo  |
 |[SASS FILES](https://bit.ly/33GfoZB)            |Archivos SASS para crear archivos CSS|
+
+
+
+## Project view - Desktop version / Vista del proyecto - Version Desktop
+
+![Podcast Desktop Version](https://www.google.com)
+
+
+## Project view - Responsive version / Vista del proyecto - Version Responsiva
+
+![Podcast Responsive Version](https://www.google.com)

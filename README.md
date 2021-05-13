@@ -34,4 +34,4 @@ A continuación podrá encontrar lo elementos que componen el proyecto de podcas
 ![Podcast Responsive Version](https://github.com/davidcastellanos/davidcastellanos.github.io/blob/master/readme_files/podcast_responsiveView_.png)
 
 
-### To visit the website live, visit: [Podcast Channel](https://davidcastellanos.github.io/) - Para visitar el sitioweb en vivo, visite: [Podcast Channel](https://davidcastellanos.github.io/)
+### To visit the website live, visit: [Podcast Channel](https://davidcastellanos.github.io/) - Para visitar el sitio web en vivo, visite: [Podcast Channel](https://davidcastellanos.github.io/)

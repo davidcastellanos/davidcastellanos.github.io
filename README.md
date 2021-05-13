@@ -31,4 +31,4 @@ A continuación podrá encontrar lo elementos que componen el proyecto de podcas
 
 ## Project view - Responsive version / Vista del proyecto - Version Responsiva
 
-![Podcast Responsive Version](https://github.com/davidcastellanos/davidcastellanos.github.io/blob/master/readme_files/podcast_responsiveView.png)
+![Podcast Responsive Version](https://github.com/davidcastellanos/davidcastellanos.github.io/blob/master/readme_files/podcast_responsiveView_.png)

@@ -9,7 +9,7 @@ Below you can find the elements that make up the podcast project, the stack used
 |[HTML FILE](https://bit.ly/3hliVER)             |File: Index HTML             |
 |[CSS FILES](https://bit.ly/3ocwOGS)             |CSS Files in style Directory that contains final style versions  |
 |[SASS FILES](https://bit.ly/33GfoZB)            |SASS Files to create CSS files|
-
+|[SOURCES IMG's](https://bit.ly/3flntbP)            |Images|
 
 
 ## Componentes del Proyecto
@@ -21,7 +21,7 @@ A continuación podrá encontrar lo elementos que componen el proyecto de podcas
 |[HTML FILE](https://bit.ly/3hliVER)             |Archivo: Index HTML             |
 |[CSS FILES](https://bit.ly/3ocwOGS)             |Archivos CSS en el directorio de estilo que contiene las versiones finales de estilo  |
 |[SASS FILES](https://bit.ly/33GfoZB)            |Archivos SASS para crear archivos CSS|
-
+|[RECURSOS IMG's](https://bit.ly/3flntbP)        |Imágenes|
 
 
 ## Project view - Desktop version / Vista del proyecto - Version Desktop

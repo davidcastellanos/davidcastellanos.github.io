@@ -77,10 +77,10 @@
         right: 45px;
         width: 30px;
         height: 30px;
-        background: url('/imagenes/close.svg');
+        background: url('../imagenes/close.svg');
         background-repeat: no-repeat;
         body.dark & {
-          background: url('/imagenes/close-modo-noct.svg');
+          background: url('../imagenes/close-modo-noct.svg');
           background-repeat: no-repeat;
         }
       }
@@ -112,16 +112,16 @@
           .icon-favorito-modal {
             width: 35px;
             height: 35px;
-            background: url('/imagenes/icon-fav.svg');
+            background: url('../imagenes/icon-fav.svg');
             background-repeat: no-repeat;
             &:hover {
-              background: url('/imagenes/icon-fav-hover.svg');
+              background: url('../imagenes/icon-fav-hover.svg');
               background-repeat: no-repeat;
             }
             &.actived {
               width: 32.5px;
               height: 32.5px;
-              background: url('/imagenes/icon-fav-active.svg') #ffffff;
+              background: url('../imagenes/icon-fav-active.svg') #ffffff;
               background-repeat: no-repeat;
               background-position: center;
               border-radius: 5px;
@@ -130,10 +130,10 @@
           .icon-descargar {
             width: 35px;
             height: 35px;
-            background: url('/imagenes/icon-download.svg');
+            background: url('../imagenes/icon-download.svg');
             background-repeat: no-repeat;
             &:hover {
-              background: url('/imagenes/icon-download-hover.svg');
+              background: url('../imagenes/icon-download-hover.svg');
               background-repeat: no-repeat;
             }
           }
@@ -194,30 +194,30 @@
               .icon-eliminar {
                 width: 35px;
                 height: 35px;
-                background: url('/imagenes/icon-trash-normal.svg');
+                background: url('../imagenes/icon-trash-normal.svg');
                 background-repeat: no-repeat;
                 &:hover {
-                  background: url('/imagenes/icon-trash-hover.svg');
+                  background: url('../imagenes/icon-trash-hover.svg');
                   background-repeat: no-repeat;
                 }
               }
               .icon-descargar {
                 width: 35px;
                 height: 35px;
-                background: url('/imagenes/icon-download.svg');
+                background: url('../imagenes/icon-download.svg');
                 background-repeat: no-repeat;
                 &:hover {
-                  background: url('/imagenes/icon-download-hover.svg');
+                  background: url('../imagenes/icon-download-hover.svg');
                   background-repeat: no-repeat;
                 }
               }
               .icon-escalar {
                 width: 35px;
                 height: 35px;
-                background: url('/imagenes/icon-max-normal.svg');
+                background: url('../imagenes/icon-max-normal.svg');
                 background-repeat: no-repeat;
                 &:hover {
-                  background: url('/imagenes/icon-max-hover.svg');
+                  background: url('../imagenes/icon-max-hover.svg');
                   background-repeat: no-repeat;
                 }
               }

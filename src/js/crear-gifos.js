@@ -21,7 +21,7 @@ const descargar = document.querySelector('.download');
 const iconLink = document.querySelector('.link');
 const iconLoading = document.querySelector('.loading');
 const texto = document.querySelector('.text');
-const APIKEY = '23DdXlqxN1Jjk8o8wO7TLcPhm4Uxv2e1';
+const APIKEY = 'jxaghJyKaQ8lhb1SANDZjhKceETIGePh';
 let arregloIds = [];
 let tiempo = new Date().getSeconds();
 let segundo = 0;
@@ -201,7 +201,7 @@ btnUpload.addEventListener('click', () => {
     let gifoId = resp.data.id;
     iconLoading.classList.add('ok');
     texto.classList.add('ok');
-    texto.textContent = 'GIFO subido con éxito';
+    texto.textContent = 'MODERN GIF subido con éxito';
     descargar.style.display = 'block';
     iconLink.style.display = 'block';
     setTimeout(() => {

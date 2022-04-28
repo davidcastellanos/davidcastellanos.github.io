@@ -7,7 +7,7 @@ let modal = document.getElementById('my-modal');
 let modalContent = document.querySelector('.modal-content');
 let userModal = document.querySelector('.user-modal');
 let tituloModal = document.querySelector('.titulo-modal');
-let apikey = '23DdXlqxN1Jjk8o8wO7TLcPhm4Uxv2e1';
+let apikey = 'jxaghJyKaQ8lhb1SANDZjhKceETIGePh';
 let ids = '';
 let index = 0;
 let suma = 12;
@@ -15,7 +15,7 @@ let misGifos;
 
 const getGifsById = async (id) => {
   try {
-    let url = `https://api.giphy.com/v1/gifs?api_key=23DdXlqxN1Jjk8o8wO7TLcPhm4Uxv2e1&ids=${id}`;
+    let url = `https://api.giphy.com/v1/gifs?api_key=jxaghJyKaQ8lhb1SANDZjhKceETIGePh&ids=${id}`;
     let resp = await fetch(url);
     let data = await resp.json();
     if (data.meta.status == 200) {
